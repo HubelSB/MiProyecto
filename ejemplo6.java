@@ -29,7 +29,8 @@ public class ejemplo6 extends JFrame {
        setLocationRelativeTo(null);  // anulo la disposicion relativa a algo.
        setLayout(null);
        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // funciona en JDK 1.3 en adelante
-       setVisible(true);     
+       setVisible(true);   
+       // este es un comentario	   
    }
    public static void main(String[] args){
         new ejemplo6();
